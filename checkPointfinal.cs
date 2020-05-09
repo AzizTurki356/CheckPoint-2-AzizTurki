@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
-
-    float Sum(float a, float b){
-	return a + b;
+public class checkPointfinal : MonoBehaviour
+{
+float sum (float a,float b)
+{
+float resultat = a+b;
+return resultat;
 }
-    Int Prod( int a, int b)}
-    return a*b; 
+float prod (float a,float b)
+{
+prod a*b;
 }
-    Div check0 ( float a , float b)}
-    float z=a*b; 
-    return z>0;
+float division (float a, float b)
+{
+if b=0; 
+debug.log erreur;   
 }
