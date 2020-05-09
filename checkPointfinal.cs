@@ -20,7 +20,7 @@ float resultat = 0;
 if(b == 0)
 Debug.Log ("erreur");   
 else{
-return a/b;    
+resultat = a/b;    
 }
 return resultat;
 }
