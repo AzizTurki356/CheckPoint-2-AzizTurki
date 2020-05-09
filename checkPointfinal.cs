@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class checkPointfinal : MonoBehaviour
 {
-{
-{
 float sum (float a,float b)
 {
 float resultat = a+b;
 return resultat;
 }
 float prod (float a,float b)
-}
+{
 float resultat = a*b;
+return resultat;
 }
 float division (float a, float b)
 {
-if b=0; 
-debug.log erreur;   
+if(b == 0)
+Debug.log ("erreur";   
+else{
+return a/b;    
+}
 }
 }
