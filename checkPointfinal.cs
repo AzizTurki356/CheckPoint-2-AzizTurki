@@ -16,10 +16,12 @@ return resultat;
 }
 float division (float a, float b)
 {
+float resultat = 0;
 if(b == 0)
-Debug.log ("erreur";   
+Debug.Log ("erreur");   
 else{
 return a/b;    
 }
+return resultat;
 }
 }
